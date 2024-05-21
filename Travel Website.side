@@ -1,0 +1,144 @@
+{
+  "id": "bffcb079-2cc4-4227-9a84-bcb39b32eec9",
+  "version": "2.0",
+  "name": "Travel Website",
+  "url": "http://localhost",
+  "tests": [{
+    "id": "6595382b-f003-4e4b-b3f1-1d66163afbea",
+    "name": "Login",
+    "commands": [{
+      "id": "6c3a6595-6e2b-4c33-8ee5-65e3509c7aea",
+      "comment": "",
+      "command": "open",
+      "target": "/reglog/login.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6462502a-8047-4092-9161-62188d52f768",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5e2e5379-b78f-4b64-9ae0-f785ed52c8e7",
+      "comment": "",
+      "command": "click",
+      "target": "id=usernameemail",
+      "targets": [
+        ["id=usernameemail", "id"],
+        ["name=usernameemail", "name"],
+        ["css=#usernameemail", "css:finder"],
+        ["xpath=//input[@id='usernameemail']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "16931d24-7ff8-4e12-b743-de57128adb33",
+      "comment": "",
+      "command": "type",
+      "target": "id=usernameemail",
+      "targets": [
+        ["id=usernameemail", "id"],
+        ["name=usernameemail", "name"],
+        ["css=#usernameemail", "css:finder"],
+        ["xpath=//input[@id='usernameemail']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Sudipta"
+    }, {
+      "id": "a1c7ed0a-2a28-4500-8155-4993a55ed9f1",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a730568c-3068-4a04-b1d7-1339c50ba82a",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "Sudipta123"
+    }, {
+      "id": "9b944bc5-0034-484d-8416-f7fb78e5dcc1",
+      "comment": "",
+      "command": "click",
+      "target": "name=submit",
+      "targets": [
+        ["name=submit", "name"],
+        ["css=input:nth-child(8)", "css:finder"],
+        ["xpath=//input[@name='submit']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "407846c0-3e19-4bfe-9433-0d6a2daf958c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Search Vehicle",
+      "targets": [
+        ["linkText=Search Vehicle", "linkText"],
+        ["css=.nav-item:nth-child(4) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Search Vehicle')]", "xpath:link"],
+        ["xpath=//div[@id='navbarNavDropdown']/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'Search_vehicle.php')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Search Vehicle')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f3236f2f-4fbc-47d3-b7d2-18e10f73800b",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(8) b",
+      "targets": [
+        ["css=li:nth-child(8) b", "css:finder"],
+        ["xpath=//li[8]/a/b", "xpath:position"],
+        ["xpath=//b[contains(.,'Feedback')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c7c3744-4817-4474-8770-b5c5eaca9244",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(1) b",
+      "targets": [
+        ["css=li:nth-child(1) b", "css:finder"],
+        ["xpath=//b", "xpath:position"],
+        ["xpath=//b[contains(.,'Home')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd71ea93-7691-424c-a6e2-cdfbdea1cb31",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Logout",
+      "targets": [
+        ["linkText=Logout", "linkText"],
+        ["css=.nav-item:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Logout')]", "xpath:link"],
+        ["xpath=//div[@id='navbarNavDropdown']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'logout.php')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Logout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [],
+  "urls": ["http://localhost/"],
+  "plugins": []
+}
