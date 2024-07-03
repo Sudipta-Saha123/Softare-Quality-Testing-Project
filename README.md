@@ -1,7 +1,7 @@
 # Softare-Quality-Testing- Group-Project
 
 Project Overview: 
-This project aims to demonstrate the usage of Selenium IDE for testing the Upwork website. The Selenium IDE is a browser automation tool that allows testers to record and playback interactions with the browser. In this project, we have created various test cases to ensure the functionality and reliability of the Upwork website.
+This project aims to demonstrate the usage of Selenium IDE for testing the Travel Management website. The Selenium IDE is a browser automation tool that allows testers to record and playback interactions with the browser. In this project, we have created various test cases to ensure the functionality and reliability of the Upwork website.
 Prerequisites
 
 Before running the test cases, ensure the following prerequisites are met:
